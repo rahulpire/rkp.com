@@ -1,0 +1,136 @@
+.IN{
+     width: 95vw;
+     font-size: 30px;
+     position: relative;
+     top: 5vh;
+     left: 2.5vw;
+}
+
+header{
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-size: 5vw;
+    align-items: center;
+    animation: LOGO;
+    animation-duration: 7S;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+}
+.NEWS{
+    width: fit-content;
+    animation: LOGI;
+    animation-duration: 10S;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+  animation-direction: reverse;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.hall{
+position: relative;
+top: 12vh;
+width: 50vw;
+left: 22vw;
+}
+.t{
+background-color: yellow;
+width: 100%;
+border: red 10PX solid;
+font-size: 4vw;
+display: flex;
+justify-content: center;
+margin: 2vh;
+overflow: hidden;
+}
+.t:hover{
+    box-shadow:0 0 0.5vh 0.5vw rgba(203, 0, 0, 0.701);
+    color: white;
+    background-color: rgb(224, 103, 224) ;
+    border: rgb(255, 65, 65) 10PX solid;
+}
+@keyframes LOGO{
+TO{
+    color: red;
+}
+    FROM{
+        color: darkred;
+    }
+}
+@keyframes LOGI{
+    TO{
+        position: relative;
+        left: -100%;
+    }
+    FROM{
+        position: relative;
+        left: 0%;
+    }
+}
+footer{
+    width: 100%;
+    background-color: black;
+    height: 10vh;
+    position: relative;
+    top: 15vh;
+}
+.CLASS{
+    width: 90%;
+    position: relative;
+    top: 10VH;
+    left: 5%;
+  margin-bottom: 10vh;
+
+   
+}
+.MAI{
+    font-size: 50px;
+    background-color: white;
+}
+.SUJECT{
+    width: 150px;
+    height: 150PX;
+    background-color: grey;
+    box-shadow: 10PX 10PX 10PX 10px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.SUB{
+    width: 95%;
+    position: relative;
+    top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.special{
+    width: 85%;
+    position: relative;
+    left: 5%;
+    top: 10vh;
+}
+.for{
+    display: flex;
+    justify-content: space-between;
+}
+.ph{
+   width: 45%;
+   box-shadow: 10PX 10PX 10PX 10px black;
+   background-color: gray;
+   height: 20vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 5vh;
+   color: white;
+   font-weight: bold;
+}
+
